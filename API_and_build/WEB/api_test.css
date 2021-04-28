@@ -1,0 +1,114 @@
+body
+{
+    margin: 10px;
+    background-color: rgb(13, 49, 128);
+    color: white;
+    padding: 10px;
+    font-family: Courier;
+}
+
+.game
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20em;
+    color:white;
+    padding-top: 20px;
+    background:#000 url(black.jpg);
+    height:100px; 
+    width:100%;
+
+}
+
+.credits
+{
+    text-align: center;
+    color:white;
+    font-family: "Verdana";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 100; 
+}
+
+.Unity
+{
+    margin:auto;
+    width:65%;
+    
+}
+
+.DatabaseInfo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+    font-family: Verdana;
+    
+}
+
+
+.dataTable
+{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.img
+{
+    background-color :rgb(13, 49, 128);
+    color:rgb(0, 0, 0);
+    font-family: "Verdana";
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+
+.Info{
+    background-color:rgb(13, 49, 128);
+    color: white;
+    font-family: "Verdana";
+    padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 20px;
+
+}
+
+.chart{
+    background-color: white;
+}
+
+#dataButton
+{
+    width: 200px;
+    height: 100px;
+    font-size:30px;
+}
+
+
+
+
+.FireBlasters
+{
+    background:#000 url(blue.jpg);
+    height:63px; 
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align:center;
+    color:#feaf32;
+}
+
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wrecking Pandemic</title>
+    <script src="api_client.js"></script>
+    <link rel="stylesheet" href="api_test.css">
+    <script src="../Builds/Build/UnityLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="DataLoader.js"></script>
+    
+
+    <script>
+        UnityLoader.instantiate("unityContainer", "../Builds/Build/Builds.json");
+    </script>
+
+</head>
+
+<body onload = main()>
+    <div class="game">
+        <h1>Wrecking Pandemic</h1>
+    </div>
+
+    <div class="credits">
+        <p1>Grupo 4: Ian Seidman, Javier Corona, Gabriel Dichi</p1>
+    </div>
+
+    <div class="Unity">
+        <div id="unityContainer" style="width: 1024px; height: 768px; margin: auto"></div>
+    </div>
+
+
+    <div class="img">
+        <table>
+            <td style="text-align:center;">
+                <img src="unity_1.jpeg" width="500" height="400">
+            </td>
+            <td style="text-align:center;">
+                <img src="controles final.png" width="350" height="400">
+            </td>
+            <td style="text-align:center;">
+                <img src="unity_2.jpeg" width="535" height="400">
+            </td>
+        </table>
+    </div>
+
+    <div class="DatabaseInfo">
+        <h1>Datos de todos los jugadores!</h1>
+        <button id="dataButton" type="button" id="btn" onclick="getUsers()">Show me!</button>
+    </div>
+
+    <div class ="chart">
+        <canvas id='Chart' height="100px" width="250px"></canvas>
+    </div>
+
+
+
+
+
+    <div class = "Info">
+
+        <h3 style="text-align: center;">INFO</h3>
+        <table>
+            <td style="text-align:center;">
+                <p>
+                    El juego se centra en Emily, una ingeniera química qué quiere encontrar una cura para la “pandemia”.
+                    Comenzando cada nivel con su ingenio Emily logra “crear” la herramienta perfecta para la situación,
+                    utilizando su conocimiento de STEM.
+                </p>
+            </td>
+            <td style="text-align:center;">
+                <p>El objetivo es eliminar las concepciones y generar interés en las carreras de STEM. Se logrará esto
+                    con la capacidad, ingenio y grandes logros de nuestro personaje principal. Con este tipo de carreras
+                    se puede hacer un gran cambio en la sociedad. Emily será un ejemplo a seguir!
+                </p>
+            </td>
+            <td style="text-align:center;">
+            
+                <p>Emily al momento de crear power-ups tendrá que hacer un sencillo reto químico y se medirán los
+                    intentos que necesitó el usuario para completarlo y se guardarán y analizarán los datos.
+
+                    También se sabrá cuántos usuarios terminaron el juego y sus tiempos
+                </p>
+            </td>
+        </table>
+    </div>
+
+
+    <div class="FireBlasters">
+        <div class="Copyright">
+            <div class="content">
+                <p>Copyright-Fire Blasters © 2021 </p>
+                <p>TC2005B.100</p>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
